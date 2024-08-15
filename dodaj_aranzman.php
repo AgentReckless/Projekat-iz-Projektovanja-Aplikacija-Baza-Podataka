@@ -34,7 +34,7 @@
             <div class="col-8">
 
                 <div class="card translucent-card text-white">
-                    <div class="card-header">Add a Book</div>
+                    <div class="card-header">Dodaj Aranzman</div>
                     <div class="card-body">
                         <p class="card-text">
 
@@ -45,7 +45,7 @@
                                 <input type="text" name="naziv" class="form-control" placeholder="naziv" required>
                             </div>
                             <div class="form-group">
-                                <label for="destinacija">Destinacija>:</label>
+                                <label for="destinacija">Destinacija:</label>
                                 <input type="text" name="destinacija" class="form-control" placeholder="destinacija" required>
                             </div>
                             <div class="form-group">

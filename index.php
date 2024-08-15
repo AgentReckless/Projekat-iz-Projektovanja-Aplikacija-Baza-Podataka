@@ -40,17 +40,17 @@
                             <form action="php/log.php" method="post">
                                 <div class="form-group">
                                     <label for="email">Mejl:</label>
-                                    <input type="email" name="email" class="form-control" placeholder="Enter email"
+                                    <input type="email" name="email" class="form-control" placeholder="Unesi email"
                                         required>
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Sifra:</label>
-                                    <input type="password" name="password" class="form-control" placeholder="Password"
+                                    <input type="password" name="password" class="form-control" placeholder="Sifra"
                                         required>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Uloguj se</button>
                                 <button type="button" class="btn btn-primary"><a
-                                        href="register.php">Registruj</a></button>
+                                        href="register.php">Registruj se</a></button>
                             </form>
 
                         </p>
@@ -60,12 +60,12 @@
                     if(isset($_REQUEST["success"])){
                             if($_REQUEST["success"] == 1){
                                 echo '<div class="alert alert-success" role="alert">';
-                                echo 'You have successfully made an account!';
+                                echo 'Uspesno ste napravili nalog!';
                                 echo '</div>';
                             }
                             elseif($_REQUEST["success"] == 2){
                                 echo '<div class="alert alert-success" role="alert">';
-                                echo 'You have successfully logged out!';
+                                echo 'Uspesno ste se izlogovali!';
                                 echo '</div>';
                             }
                         }
@@ -73,11 +73,11 @@
                         if(isset($_REQUEST["error"])){
                             if($_REQUEST["error"] == 1){
                                 echo '<div class="alert alert-danger" role="alert">';
-                                echo 'Input error!';
+                                echo 'Greska pri unosu!';
                                 echo '</div>';
                             }elseif($_REQUEST["error"] == 2){
                                 echo '<div class="alert alert-warning" role="alert">';
-                                echo 'Session expired, log in again!';
+                                echo 'Sesija istekla, ulogujte se ponovo!';
                                 echo '</div>';
                             }
                         }

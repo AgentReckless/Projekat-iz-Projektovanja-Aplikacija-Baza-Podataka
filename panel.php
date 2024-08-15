@@ -90,6 +90,12 @@ if (!isset($_SESSION["id"])) {
                                                    <button type="submit" class="btn btn-success">Izbrisi</button>
                                                </form>
                                             </td>
+                                            <td>
+                                               <form method="post" action="izmeni.php">
+                                                   <input type="hidden" name="aranzman_id" value=<?php echo $aranzmani['id'] ?>>
+                                                   <button type="submit" class="btn btn-success">Izmeni</button>
+                                               </form>
+                                            </td>
                                         </tr>
                                     <?php } ?>
                                 </tbody>

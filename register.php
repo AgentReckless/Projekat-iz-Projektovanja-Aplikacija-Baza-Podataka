@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Register page</title>
+    <title>Strana Registracije</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
             <div class="col-12">
                 <header class="mb-4">
                     <nav class="navbar translucent-card fixed-top">
-                        <a class="navbar-brand" href="index.php">Library</a>
+                        <a class="navbar-brand" href="index.php">Aranzmani</a>
                         </button>
                     </nav>
                 </header>
@@ -34,42 +34,42 @@
             <div class="col-8">
 
                 <div class="card translucent-card text-white">
-                    <div class="card-header">Register page</div>
+                    <div class="card-header">Strana Registracije</div>
                     <div class="card-body">
                         <p class="card-text">
 
                             <form action="php/register.php" method="post">
                                 <div class="form-group">
-                                    <label for="ime">Name:</label>
-                                    <input type="text" name="ime" class="form-control" placeholder="Input name"
+                                    <label for="ime">Ime:</label>
+                                    <input type="text" name="ime" class="form-control" placeholder="Unesi ime"
                                         required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="prezime">Surname:</label>
-                                    <input type="text" name="prezime" class="form-control" placeholder="Input surname"
+                                    <label for="prezime">Prezime:</label>
+                                    <input type="text" name="prezime" class="form-control" placeholder="Unesi prezime"
                                         required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email:</label>
-                                    <input type="email" name="email" class="form-control" placeholder="Input email"
+                                    <input type="email" name="email" class="form-control" placeholder="Unesi email"
                                         required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="password">Password:</label>
+                                    <label for="password">Sifra:</label>
                                     <input type="password" name="password" class="form-control"
-                                        placeholder="Input password" required>
+                                        placeholder="Unesi sifru" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="passwordre">Password-re:</label>
+                                    <label for="passwordre">Ponovi Sifru:</label>
                                     <input type="password" name="passwordre" class="form-control"
-                                        placeholder="Input password again" required>
+                                        placeholder="Ponovo unesi sifru" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="about">About:</label>
+                                    <label for="about">O:</label>
                                     <textarea class="form-control" name="about" rows="3"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Posalji</button>
                             </form>
                         </p>
                     </div>
